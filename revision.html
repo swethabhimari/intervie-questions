@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Accordion FAQ</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 style="text-align: center;">HTML Interview Question and Answers</h2>
+  
+  <div class="accordion" id="faqAccordion">
+    
+    <!-- Accordion Item 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          1. What is HTML?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures web content by using a system of elements or tags that define the different parts of a webpage, such as text, images, links, and multimedia.
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          2. What is the difference between HTML vs CSS vs JavaScript?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <b>HTML</b> creates the basic structure for a website, <b>CSS</b> adds style to that structure, and <b>JavaScript</b> makes it interactive and more functionally complex.
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          3. What is Doctype?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Doctype is the first line of an HTML document which tells the version of HTML that we are using.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          4. What is the difference between tags and elements?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <b>Tags</b> are used to define the beginning and end of an element, while <b>Elements</b> consist of the opening tag, content, and closing tag.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          5. What are the entities in HTML?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          HTML entities are reserved characters that have special meanings when used in an HTML document. Each of these codes starts with an ampersand and ends with a semicolon.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          6. What is the difference between HTML4 and HTML5?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          HTML 5 improves upon HTML 4 by adding more features like multimedia support, a canvas for drawing, storage for web apps to work offline, and a way to find a user's location.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          7. How many parts of elements are there in HTML, and what is the difference between them?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <b>Start tag:</b> Marks the beginning of the element's content. For example, the start tag for a paragraph is <code>&lt;p&gt;</code><br>
+          <b>Content:</b> The content of the element, which can be text or other elements.<br>
+          <b>End tag:</b> Marks the end of the element's content. The end tag is the same as the start tag, but with a forward slash (/) after the first angle bracket. For example, the end tag for a paragraph is <code>&lt;/p&gt;</code>.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 8 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          8. How can you make a square box of red color in HTML without any content?
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          We can use a <code>&lt;div&gt;</code> tag with width and height for making an empty square box without any content.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 9 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          9. What is the attr in HTML, and name a few attributes that you know?
+        </button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <b>Attr</b> refers to attributes in HTML. An attribute provides additional information about a particular tag. Some common attributes are:
+          <ul>
+            <li>Source attribute (src)</li>
+            <li>Hyperlink reference attribute (href)</li>
+            <li>Alternate (alt)</li>
+            <li>Target</li>
+            <li>Language (lang)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 10 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          10. Number of tags in the head tag?
+        </button>
+      </h2>
+      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li>Title</li>
+            <li>Style</li>
+            <li>Meta</li>
+            <li>Link</li>
+            <li>Script</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 11 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEleven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+          11. Why do we use meta tags in the head tag?
+        </button>
+      </h2>
+      <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Meta tags are used in HTML at the head of the page, making them visible only to search engines and those who know how to view website source code. Metadata helps search engines understand the data on a website, aiding in content ranking on popular search engines like Google.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 12 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwelve">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          12. What is SEO, and why do we use SEO?
+        </button>
+      </h2>
+      <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          SEO stands for 'Search Engine Optimization', which is the process of getting traffic from free, organic, editorial, or natural search results in search engines. It aims to improve a website's position in search results pages (SERPs). Higher listings result in more visibility.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 13 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThirteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          13. What is iframe and how many attributes are there in iframe?
+        </button>
+      </h2>
+      <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          An <code>&lt;iframe&gt;</code> is a tag that allows a browser to display another document within the current page. Attributes like src, height, width, and others define and modify the region created by the <code>&lt;iframe&gt;</code> tag.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 14 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFourteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+          14. What is a form and how many form elements are there?
+        </button>
+      </h2>
+      <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          A form is used to collect detailed information. Form elements include:
+          <ul>
+            <li>Input</li>
+            <li>Label</li>
+            <li>Select</li>
+            <li>Legend</li>
+            <li>Fieldset</li>
+            <li>Option</li>
+            <li>Textarea</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 15 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFifteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+          15. What is the difference between semantic and non-semantic elements? Why are semantic elements important even though non-semantic elements exist?
+        </button>
+      </h2>
+      <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <b>Semantic elements</b> provide detailed information about the content. Examples include <code>&lt;article&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>.<br>
+          <b>Non-semantic elements</b> do not provide information about the content. Examples include <code>&lt;span&gt;</code>, <code>&lt;div&gt;</code>.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 16 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSixteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+          16. What is the difference between relative and absolute paths?
+        </button>
+      </h2>
+      <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Relative file paths reference files located in the same folder of your website structure, while absolute file paths refer to external resources located elsewhere on the web.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 17 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeventeen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+          17. What is the difference between src attribute and href attribute?
+        </button>
+      </h2>
+      <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          In HTML, the "src" attribute specifies the source of an embedded resource like an image, while the "href" attribute defines the destination URL of a hyperlink, indicating where a link will take the user when clicked. "Src" is used to display content within a page, while "href" is used to navigate to a different page.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 18 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEighteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+          18. How many inline elements do you know?
+        </button>
+      </h2>
+      <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Some inline elements include:
+          <ul>
+            <li>Bold</li>
+            <li>Span</li>
+            <li>Strong</li>
+            <li>Italic</li>
+            <li>Subscript</li>
+            <li>Superscript</li>
+            <li>Image</li>
+            <li>Insert</li>
+            <li>Emphasis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <div class="container mt-5">
+  <h2 style="text-align: center;">Git & GitHub  Interview Question and Answers</h2>
+  
+  <div class="accordion" id="faqAccordion">
+    
+    <!-- Accordion Item 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          1. What is Git?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Git is a version control system that tracks changes in computer files. It is used to push the code from our system.
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          2. What is Git vs GitHub?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Git is an open-source version control tool that tracks changes to files, while GitHub is a cloud-based platform that allows users to share and collaborate on code and helps to do projects together.
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          3. How to initialize Git to your local? (git init)
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          The git init command is used to initialize Git in your local directory.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          4. Number of stages in GitFlow?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li>Working directory</li>
+            <li>Staging area</li>
+            <li>Local repository</li>
+            <li>Remote repository</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          5. Command used to stage the code?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git add . is used to add all files and git add <filename> is used to add a particular file.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          6. Command to commit staged changes?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git commit -m "message"
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          7. Command for local to commit with remote?
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git remote add origin <link>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 8 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          8. What is a repository?
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          A repository is a place where you can store your code, your files, and each file's revision history.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 9 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          9. How can you push the code from local to remote?
+        </button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git push origin main
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 10 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          10. How to create a branch?
+        </button>
+      </h2>
+      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git branch -M branchname
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 11 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEleven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+          11. How to check the branch names?
+        </button>
+      </h2>
+      <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git branch
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 12 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwelve">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          12. How to switch the branch?
+        </button>
+      </h2>
+      <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git checkout <branchname>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 13 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThirteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          13. How to check the commit history?
+        </button>
+      </h2>
+      <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git log --oneline
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 14 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFourteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+          14. What is the use of git status?
+        </button>
+      </h2>
+      <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          The git status command shows the current state of your Git repository, including the status of your working directory and staging area.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 15 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFifteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+          15. In how many ways can you get the code from remote to local?
+        </button>
+      </h2>
+      <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          git fetch, git pull, git clone
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 16 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSixteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+          16. What is a fork in GitHub and how to fork the repository?
+        </button>
+      </h2>
+      <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          A fork in GitHub is a copy of a repository that shares the same code and visibility settings as the original repository.
+          <ol>
+            <li>Find the repository: Go to the repository page that you want to fork.</li>
+            <li>Fork the repository:
+              <ul>
+                <li>In the top-right corner of the repository's page, you'll see a "Fork" button.</li>
+                <li>Click on the "Fork" button. GitHub will create a copy of the repository under your account.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 17 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeventeen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+          17. git fetch vs git pull?
+        </button>
+      </h2>
+      <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li><b>git fetch:</b> Downloads commits, files, and references from a remote repository, but doesn't merge or modify your working directory.</li>
+            <li><b>git pull:</b> Combines git fetch and git merge—it fetches the latest changes and directly updates your local branch by merging them.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 18 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEighteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+          18. git stash and git diff?
+        </button>
+      </h2>
+      <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <ol>
+            <li><b>git stash:</b>
+              <ul>
+                <li>Temporarily saves (stashes) your uncommitted changes without committing them, allowing you to work on something else.</li>
+                <li>You can later reapply these changes using git stash pop or git stash apply.</li>
+              </ul>
+            </li>
+            <li><b>git diff:</b>
+              <ul>
+                <li>Shows the differences between your working directory and the last commit (or between any two commits).</li>
+                <li>Useful for seeing changes made to files before committing them.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 19 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNineteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+          19. git remote and git reset?
+        </button>
+      </h2>
+      <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          <ol>
+            <li><b>git remote:</b>
+              <ul>
+                <li>Manages connections to remote repositories (e.g., GitHub).</li>
+                <li>You can use it to add, remove, or list remotes.</li>
+              </ul>
+            </li>
+            <li><b>git reset:</b>
+              <ul>
+                <li>Moves the HEAD pointer and optionally modifies the working directory and staging area.</li>
+                <li>Useful for undoing commits or unstaging changes.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 style="text-align: center;">CSS Interview Question and Answers</h2>
+  
+  <div class="accordion" id="faqAccordion">
+    
+    <!-- Accordion Item 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            1.what is css?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML).
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            2.what is the syntax of the css?
+</button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            A CSS Syntax rule consists of a selector, property, and its value.<br>
+            selector{<br>
+                property:value;<br>
+            }
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3.what are the ways of attaching css to html?*
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            CSS can be added to HTML documents in 3 ways:<br><b> Inline</b> - by using the style attribute inside HTML elements.<br> <b>Internal</b> - by using a < style > element in the < head > section.<br>
+           <b> External</b>-To link the CSS to an HTML file, we use the < link > tag inside the HTML < head > section.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            4.how many type of selectors we have?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            There are several different types of selectors in CSS.<br>
+           1. CSS Element Selector.<br>
+           2. CSS Id Selector.<br>
+           3. CSS Class Selector.<br>
+           4. CSS Universal Selector.<br>
+           5.CSS Group Selector.
+            
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 5 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            5.what is d/f b/w the id and class?*
+       </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page.  Each of these codes starts with an ampersand and ends with a semicolon.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            6.what are the colors giving types in you know??
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Colors in CSS can be specified by the following methods:<br>
+            1.Hexadecimal colors. (e.g., #ff0000, #00ff00) <br>
+            2.RGB colors.RGB values (e.g., rgb(255, 0, 0), rgb(0, 255, 0))<br>
+            3.Predefined/Cross-browser Color names (e.g., red, blue)
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 7 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            7.what is the d/f b/w dislay:block vs display:inline vs display:inline-block **?
+       </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block , the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 8 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            8.what is d/f bw the div and span??
+</button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            A span is an inline element used to group and style text or inline elements, while a div is a block-level element used to create sections or divisions in a document and style them as a whole.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 9 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            9.what is the d/f b/w float  and text-align??
+</button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Float allows other HTML elements to flow around the floating element. Align simply shifts an element to the left or right. Align - You use align to align text and other items rather it be left, right, centered, or justified. Align DOES NOT remove the item from the document flow.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 10 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            10.what is d/f b/w pesudo-elemets vs pseudo-classes?
+        </button>
+      </h2>
+      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+           <b> Pseudo-classes</b> enable you to target an element when it's in a particular state, as if you had added a class for that state to the DOM.Pseudo-classes target states like ': hover' or ': active',  <br><b>Pseudo-elements</b> act as if you had added a whole new element to the DOM, and enable you to style that.Pseudo-elements like ' ::before ' or:: after' style specific parts of an element.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 11 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEleven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            11.what is the box-modal in css?
+</button>
+      </h2>
+      <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            The CSS box model module defines the height , width , margin , and padding properties, which along with border properties make up the CSS box model.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 12 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwelve">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+            12.what is d/f b.w the padding and margin??
+ </button>
+      </h2>
+      <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            In CSS, a margin is the space around an element's border, while padding is the space between an element's border and the element's content.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 13 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThirteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+            13.what i d/f b/w postion:realtive and position:abolsute??
+</button>
+      </h2>
+      <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <b>Relative</b> - the element is positioned relative to its normal position. <br><b>Absolute </b>- the element is positioned absolutely to its first positioned parent.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 14 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFourteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+            14.what is d/f b/w the position:fixed and position:sticky??
+        </button>
+      </h2>
+      <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <b>The position: fixed</b> mean fixed to the viewport. We tell it where to position itself (top, bottom, right, or left) and it will stay there when user scrolling.<br> Meanwhile, when using<b> position: sticky</b> it won't affect until we define offset, like top: 10px.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 15 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFifteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+            15.what is d/f b/w the position and dislay?
+</button>
+      </h2>
+      <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <b>Position</b> property determines in what manner an item is positioned on the page or relative to one another. <br><b>CSS's Display</b> property specifies the type of rendering box that is created from our HTML you can say it like block, inline, inline block, flex.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 16 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSixteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+            16.what is the d/f bw transition and transform??
+</button>
+      </h2>
+      <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+           <b> Transforms </b>move or change the appearance of an element, <br> <b> Transitions</b> make the element smoothly and gradually change from one state to another.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 17 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeventeen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+            17.what is the d/f b/w the duartion and timing-functin in transition prop??
+        </button>
+      </h2>
+      <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            The <b>transition-timing-function property </b>specifies the speed curve of the transition effect. This property allows a transition effect to change speed over its duration.<br>The <b>transition-duration CSS property</b> sets the length of time a transition animation should take to complete. By default, the value is 0s , meaning that no animation will occur.
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 18 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEighteen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+            18.what is flex and grid?
+        </button>
+      </h2>
+      <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            Grid and flexbox.<br><b> flexbox</b> was designed for layout in one dimension - either a row or a column.<br><b> Grid </b>was designed for two-dimensional layout - rows, and columns at the same time.
+        </div>
+      </div>
+    </div>
+<!-- Accordion Item 19 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingNineteen">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+        19.what are the media queries?
+ </button>
+    </h2>
+    <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        CSS media queries are a feature in CSS that allows you to apply styles to an element based on the characteristics of the device or screen displaying the content. This includes factors like screen width, height, resolution, orientation, and more.
+      </div>
+    </div>
+  </div>
+<!-- Accordion Item 20 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwenty">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+        20.what do u meant by responsive design?
+</button>
+    </h2>
+    <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Responsive web design. Adaptive web design. Dynamically changes a site's page layout based on a device's display type, width, height, etc. Detects the screen size and loads the appropriate layout for it. Uses CSS media queries to change styles.
+      </div>
+    </div>
+  </div>
+<!-- Accordion Item 21 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
+        21.what is z-index?
+ </button>
+    </h2>
+    <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Z-index is the CSS property that controls the stacking order of overlapping elements on a page. An element with a higher z-index value will appear in front of an element with a lower z-index value. The property is called “z-index” because it sets the order of elements along the z-axis.
+      </div>
+    </div>
+  </div>
+<!-- Accordion Item 22 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapsTwentyTwo">
+        22.d/f align-items and align-conytent??
+      </button>
+    </h2>
+    <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        <b>align-items :</b> Controls the alignment of all items on the cross axis. align-self : Controls the alignment of an individual flex item on the cross axis.<br><b> align-content :</b> Controls the space between flex lines on the cross axis. gap , column-gap , and row-gap : Used to create gaps or gutters between flex items.
+      </div>
+    </div>
+  </div>
+<!-- Accordion Item 23 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
+        23.media dn types and usages???
+      </button>
+    </h2>
+    <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Value ---   Description<br>
+        all :	Used for all media type devices<br>
+        print :  Used for print preview mode <br>
+        screen:	Used for computer screens, tablets, smart-phones etc.<br>
+      </div>
+    </div>
+  </div>
+<!-- Accordion Item 24 -->
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwentyFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyFour" aria-expanded="false" aria-controls="collapseTwentyFour">
+        24.how to center the div horizantally and vertically center?
+</button>
+    </h2>
+    <div id="collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="headingTwentyFour" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        Centering a div horizontally and vertically in CSS can be achieved through a variety of methods, including using the display: flex and display: grid properties, position: absolute and transform: translate, display: table and display: table-cell, and line-height.
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
